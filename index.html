@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <form>
+        <h3>National Parks Search</h3>
+        <p>Enter the two letter state code you would like to search for (example: Ohio = OH)</p>
+        <input type="text" value="" id="parkSearch" required>
+        <input id="requestedNum" type="number" value="10" min="1">
+        <button>Go!</button>
+      </form>
+      <p id="error-message"></p>
+      <section>
+        <ul id="resultsList">
+        </ul>
+      </section>
+    <script src="script.js"></script>
+  </body>
+</html>
